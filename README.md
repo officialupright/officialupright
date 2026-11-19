@@ -75,13 +75,12 @@ I'm a **Security Operations Center (SOC) Analyst Intern** at **MAPELEAD**, worki
 
 ## 🔬 Projects & Labs
 
-| Project | What it covers | Status |
+| Project | What it covers | Stack |
 |---|---|---|
-| **SOC Home Lab** | Wazuh + Sysmon + Windows/Linux endpoints feeding a SIEM; attack simulation and detection | 🚧 In progress |
-| **Splunk Detection Rules** | SPL searches for brute force, suspicious PowerShell, and lateral movement mapped to ATT&CK | 🚧 In progress |
-| **Phishing Analysis Playbook** | Step-by-step triage workflow: header analysis, URL/attachment checks, containment | 🚧 In progress |
-| **Network Traffic Analysis** | Investigating malicious PCAPs with Wireshark and Zeek; writing incident reports | 🚧 In progress |
-| **Incident Response Reports** | Sample IR write-ups following NIST SP 800-61 (detection → containment → lessons learned) | 🚧 In progress |
+| 🛡️ **[SOC Home Lab](https://github.com/officialupright/soc-home-lab)** | Build a free SOC lab, simulate 6 real attacker techniques with Atomic Red Team, and catch them with custom ATT&CK-mapped Wazuh rules | Wazuh · Sysmon · Atomic Red Team |
+| 🔎 **[Splunk Threat Detection](https://github.com/officialupright/splunk-threat-detection)** | Copy-paste SPL detections (brute force, encoded PowerShell, malicious macros, rogue admins) with triage and tuning guidance, plus an SPL cheat sheet | Splunk · SPL · Windows Event Logs |
+| 🎣 **[Phishing Analysis Playbook](https://github.com/officialupright/phishing-analysis-playbook)** | A 7-step phishing triage playbook with a Python IOC extractor that flags SPF/DKIM/DMARC failures, look-alike domains and risky attachments | Python · Email forensics · Threat Intel |
+| 🚧 **Network Traffic Analysis** | Investigating malicious PCAPs with Wireshark and Zeek | *Coming soon* |
 
 ---
 
